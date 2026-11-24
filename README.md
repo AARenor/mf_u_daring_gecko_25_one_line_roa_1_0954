@@ -12,6 +12,6 @@ The entry text:
 My watch congratulated me on a twelve-hour stand goal I hit standing at the fridge.
 ```
 
-Run it with `MAKEFUN_OUTPUT_DIR=out python3 main.py`.
+Run it with `MAKEFUN_OUTPUT_DIR=out python3 main.py`; when `MAKEFUN_OUTPUT_DIR` is unset the program also honours `OUTPUT_DIR`, and falls back to `/output` before creating the folder.
 
 Released under the MIT license; see [LICENSE](LICENSE).
